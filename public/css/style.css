@@ -1,0 +1,227 @@
+                            /*// css by aalok start*/
+                            
+                            .error,
+                            .jv-error {
+                                color: red;
+                            }
+                            
+                            a,
+                            a:hover {
+                                text-decoration: none;
+                            }
+                            
+                            .curspointer {
+                                cursor: pointer;
+                            }
+                            
+                            .no-show {
+                                display: none;
+                            }
+                            
+                            .responsetext {
+                                float: left;
+                                width: 100%;
+                                margin: 15px 0;
+                                font-size: 18px;
+                            }
+                            
+                            .select2-selection {
+                                min-height: 35px !important;
+                                border: 1px solid #ced4da;
+                                -webkit-appearance: none;
+                                -moz-appearance: none;
+                                appearance: none;
+                                border-radius: .25rem;
+                                transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+                                /*padding: .375rem .75rem;*/
+                            }
+                            
+                            .select2-selection__placeholder {
+                                /*color: #354052 !important;*/
+                                /*font-weight: 300 !important;*/
+                            }
+                            
+                            .select2-selection__rendered {
+                                /*color: #354052 !important;*/
+                                /*font-weight: 600 !important;*/
+                                /*font-size: 16px;*/
+                                /*letter-spacing: 1.5px;*/
+                            }
+                            
+                            .select2-results__option {
+                                /*font-size: 16px;*/
+                                /*letter-spacing: 1.5px;*/
+                            }
+                            
+                            .block-show {
+                                display: block;
+                            }
+                            
+                            .deletecattext {
+                                float: left;
+                                width: 100%;
+                                margin: 15px 0;
+                                font-size: 18px;
+                            }
+                            
+                            .select2-container {
+                                width: 100% !important;
+                            }
+                            
+                            .custom-accordion-button {
+                                background-color: #86b7fe;
+                            }
+                            
+                            .pi-clickable-row {
+                                cursor: pointer;
+                            }
+                            
+                            .collapse-table>tbody>tr>td>a {
+                                color: black !important;
+                            }
+                            
+                            .accordian-heading {
+                                padding: 8px;
+                                background-color: #0d6efd;
+                                color: #fff;
+                            }
+                            
+                            .list-table>tbody>tr>td {
+                                cursor: pointer;
+                                /*color: #000000;*/
+                            }
+                            /*.search-box{
+    width: 100%;
+}
+.tt-dropdown-menu
+{
+    margin-top: 5px;
+    padding: 4px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    max-height: 250px;
+    overflow-y: auto;
+    font-size: 12px;
+    width: 100%;
+    color: black;
+}
+.tt-suggestion
+{
+    padding: 3px 20px;
+    line-height: 24px;
+}
+.tt-suggestion.tt-is-under-cursor
+{
+    color: #fff;
+    background-color: #0097cf;
+}
+.tt-query,.tt-hint
+{
+    height: 34px !important;
+    padding: 4px 8px !important; 
+    font-family: inherit !important; 
+}
+.twitter-typeahead{
+    display: block !important;
+}*/
+                            /* start mayur  */
+                            
+                            #DataTables_Table_0_length {
+                                display: none;
+                            }
+                            
+                            #DataTables_Table_0_filter {
+                                margin: 10px 5px 0;
+                            }
+                            
+                            #DataTables_Table_0_filter input {
+                                border-radius: 5px;
+                            }
+                            
+                            #DataTables_Table_0_info {
+                                margin-left: 5px;
+                            }
+                            
+                            #DataTables_Table_0_paginate {
+                                margin-right: 5px;
+                            }
+                            /* end mayur  */
+                            /* start aalok css 15-02-2022*/
+                            
+                            .destination_container {
+                                /* padding:20px; */
+                                /* border:dotted 1px; */
+                                white-space: nowrap;
+                                overflow-x: auto;
+                            }
+                            
+                            .destination_box {
+                                width: 385px;
+                                height: 180px;
+                                border: solid 1px;
+                                margin-right: 10px;
+                                margin-bottom: 5px;
+                                display: inline-block;
+                                /* white-space: pre-line; */
+                            }
+                            
+                            .destination_container::-webkit-scrollbar {
+                                width: 20px;
+                            }
+                            
+                            .destination_container::-webkit-scrollbar-track {
+                                background-color: #e4e4e4;
+                                border-radius: 100px;
+                            }
+                            
+                            .destination_container::-webkit-scrollbar-thumb {
+                                border-radius: 100px;
+                                border: 5px solid transparent;
+                                background-clip: content-box;
+                                background-color: #8070d4;
+                            }
+                            
+                            .scrollar_address::-webkit-scrollbar {
+                                width: 15px;
+                            }
+                            
+                            .scrollar_address::-webkit-scrollbar-track {
+                                background-color: none;
+                                border-radius: 50px;
+                            }
+                            
+                            .scrollar_address::-webkit-scrollbar-thumb {
+                                border-radius: 50px;
+                                border: 2px solid transparent;
+                                background-clip: content-box;
+                                background-color: #8070d4;
+                            }
+                            
+                            .scrollar_address {
+                                white-space: initial;
+                                padding: 2px;
+                                overflow-y: scroll;
+                                height: 153px;
+                                width: 375px;
+                            }
+                            
+                            .select2-container--default .select2-selection--multiple .select2-selection__choice {
+                                background-color: #0d6efd!important;
+                                color: white!important;
+                            }
+                            
+                            .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+                                color: white!important;
+                            }
+                            
+                            .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+                                color: #0d6efd!important;
+                            }
+                            /* End aalok */
