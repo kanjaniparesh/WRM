@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\MailNotification;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\ShortUrl;
 use Carbon\Carbon;
 use Redirect;
 use DB;
+use Illuminate\Support\Facades\Mail;
 
 class ShortUrlController extends Controller
 {
@@ -142,6 +144,7 @@ class ShortUrlController extends Controller
     }
     public function sendEmailNotification()
     {
+        
         $startDate = Carbon::today()->subDays(7);
         $endDate = Carbon::today()->subDays(6);
         $dt = Carbon::now();
@@ -157,6 +160,7 @@ class ShortUrlController extends Controller
                 $details['name'] = "Dear " . $value->name . ",";
                 $details['msg'] = "Your tiny url " . env('APP_URL') . "/s/" . $value->code . " will be expired on " . $dt->toFormattedDateString() . ".";
                 ShortUrl::where('id', $value->id)->update(['expiry_email_sent' => 'Yes']);
+                Mail::to($value->email)->send(new MailNotification($details));
             }
             dd("Email Sent.");
         } else {
